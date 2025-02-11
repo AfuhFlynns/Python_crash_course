@@ -11,3 +11,13 @@ at programming.
 
 - [Welcome to my python course](#python-crash-crouse)
   - [Table of content](#table-of-content)
+  - [Python variables](#python-variables)
+  - [Python strings](#python-strings)
+
+## Python variables
+
+**Refer to Lesson1** [Python variables markdown](./Lesson1/NOTES.md) or [Python variables practicals](./Lesson1/variables.py)
+
+## Python strings
+
+**Refer to Lesson2** [Python strings markdown](./Lesson2/NOTES.md) or [Python strings practicals](./Lesson2/strings.py)

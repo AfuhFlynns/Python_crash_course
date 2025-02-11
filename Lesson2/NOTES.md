@@ -56,3 +56,26 @@ print(name.lower()) # tembeng mylse
 ```
 
 ## Inserting variables into strings
+
+### 1. Using the formatted strings (f-strings) package
+
+Here, we use the f-strings package inbuilt into python: (e.g f"Your string" or f'Your string')
+
+```python
+firstname = "Tembeng"
+lastname = "Mylse"
+
+fullname = f"{firstname} {lastname}"
+print(fullname) # Tembeng Mylse
+```
+
+We can also use f-strings to compose a sentence an then assign it to a variable
+
+```python
+firstname = "Tembeng"
+lastname = "Mylse"
+
+fullname = f"{firstname} {lastname}"
+message = f"Hello, {fullname}!"
+print(message) # Hello, Tembeng Mylse!
+```
