@@ -4,3 +4,7 @@
 # Ignore all txt files
 notes.txt
 *.txt
+
+# Ignore all txt files in all directories and .env files
+**/*.txt
+**/*.env
