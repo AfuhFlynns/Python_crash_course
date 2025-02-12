@@ -79,3 +79,32 @@ fullname = f"{firstname} {lastname}"
 message = f"Hello, {fullname}!"
 print(message) # Hello, Tembeng Mylse!
 ```
+
+## Stripping Whitespaces
+
+### 1. Using the rstrip() method
+
+This method removes the whitespaces on the right
+
+```python
+name = "Afuh Flynn "
+print(name.rstrip()) # Afuh Flynn
+```
+
+### 2. Using the lstrip() method
+
+This method removes the whitespaces on the left
+
+```python
+name = "Afuh Flynn "
+print(name.lstrip()) # Afuh Flynn
+```
+
+### 3. Using the strip() method
+
+This method removes the whitespaces on the left and right
+
+```python
+name = "Afuh Flynn "
+print(name.strip()) # Afuh Flynn
+```

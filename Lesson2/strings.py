@@ -45,4 +45,16 @@ first_name = "ada"
 last_name = "lovelace"
 full_name = f"{first_name} {last_name}"
 print(f"Hello, {full_name.title()}!")
-full_name.strip()
+
+
+# Stripping whitespaces
+## 1. Using the rstrip() method (Removes the whitespaces on the right)
+name = "Afuh Flynn "
+print(name.rstrip()) # Afuh Flynn
+
+## 2. Using the lstrip() method (Removes the whitespaces on the left)
+print(name.lstrip()) # Afuh Flynn#
+
+# 3. Using the strip() method (Removes the whitespaces on the left and right)
+print(name.strip()) # Afuh Flynn
+
