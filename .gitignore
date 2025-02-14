@@ -8,3 +8,6 @@ notes.txt
 # Ignore all txt files in all directories and .env files
 **/*.txt
 **/*.env
+
+# Ignore editor based folders and files
+.vscode

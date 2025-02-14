@@ -46,7 +46,6 @@ last_name = "lovelace"
 full_name = f"{first_name} {last_name}"
 print(f"Hello, {full_name.title()}!")
 
-
 # Stripping whitespaces
 ## 1. Using the rstrip() method (Removes the whitespaces on the right)
 name = "Afuh Flynn "
@@ -57,4 +56,44 @@ print(name.lstrip()) # Afuh Flynn#
 
 # 3. Using the strip() method (Removes the whitespaces on the left and right)
 print(name.strip()) # Afuh Flynn
+
+# 3. Using the strip() method (Removes the whitespaces on the left and right)
+print(name.strip()) # Afuh Flynn
+
+
+# Removing prefixes from strings
+# This is done using the removeprefix() method which removes any starting point in the string provided in the paranthesis
+flintai = "https://flintai.com"
+print(flintai.removeprefix("https://")) # flintai.com
+
+# Or
+syntaxspring = "https://syntaxspring.io"
+print(syntaxspring.removeprefix("https://")) # syntaxspring.io
+
+# Avioding syntax errors with strings
+# We use single quotes in double quotes and double quotes in single quotes
+# Using single quotes in single quotes or double quotes in double quotes will cause an error if not escaped
+
+# 1. Single quotes in double quotes
+message = "AfuhFlynn's house is located at Buea"
+print(message)
+
+# 2. Double quotes in single quotes
+message = 'Albert Einstein once said, “A person who never made a mistake never tried anything new”'
+print(message)
+
+# 3. Using the escape sequence (\' or \")
+# This tells the intepreter that the string has not yet ended ignore this and continue to the next quote
+message = 'AfuhFlynn\'s house is located at Buea'
+print(message)
+
+# This causes a syntax error:
+# message = 'AfuhFlynn's house is located at Buea' # Statements must be separated by newlines or semicolonsPylance "Buea" is not defined
+# print(message)
+
+# NB: This only causes a syntax error in single quotes though but it's a good practice to insert single in double and vice versa
+
+# This will still work
+message = "Albert Einstein once said, “A person who never made a mistake never tried anything new”"
+print(message)
 
