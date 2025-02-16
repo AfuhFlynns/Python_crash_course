@@ -1,12 +1,10 @@
 # Ignore all dotenv files
 .env
 
-# Ignore all txt files
-* notes.txt
-*.txt
+# Ignore all notes.txt files
+**/* notes.txt
 
-# Ignore all txt files in all directories and .env files
-**/*.txt
+# Ignore all dotenvs
 **/*.env
 
 # Ignore editor based folders and files
