@@ -2,7 +2,7 @@
 .env
 
 # Ignore all txt files
-notes.txt
+* notes.txt
 *.txt
 
 # Ignore all txt files in all directories and .env files

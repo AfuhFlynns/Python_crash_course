@@ -2,7 +2,7 @@
 
 ## Table of content
 
-- [Welcome to my crash course](#python-variables)
+- [Welcome to python variables](#python-variables)
 - [Table of content](#table-of-content)
 - [Variables in  python](#variable)
   - [Naming a variable](#naming-a-variable)

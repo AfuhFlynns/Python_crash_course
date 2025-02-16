@@ -2,7 +2,7 @@
 
 ## Table of content
 
-- [Welcome to my crash course](#python-strings)
+- [Welcome to python strings](#python-strings)
 - [Table of content](#table-of-content)
 - [Strings in  python](#string)
   - [Multilined strings](#multilined-strings)
@@ -20,6 +20,7 @@
     - [Single quotes in double quotes](#1-single-quotes-in-double-quotes)
     - [Double quotes in single quotes](#2-double-quotes-in-single-quotes)
     - [Using the escape sequence](#3-using-the-escape-sequence)
+  - [Exercise Details](#exercise-details)
 
 ## String
 
@@ -208,3 +209,7 @@ print(message)
 message = "Albert Einstein once said, “A person who never made a mistake never tried anything new”"
 print(message) # Albert Einstein once said, "A person who never made a mistake never tried anything new"
 ```
+
+## Exercise Details
+
+Don't forget to check the exercises at: [Strings Practical exercises](./Exercises.txt) or it's solution at: [Solution](./solution.py)
